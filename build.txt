@@ -1,0 +1,3 @@
+displayName = Boss Scaling
+author = PigGod
+version = 0.1
