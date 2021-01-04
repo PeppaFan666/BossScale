@@ -1,1 +1,6 @@
-Boss Scaling is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Boss Health Scaling is a mod that allowes you to change boss health by any multiple of 0.1, it does not add AI or damage, and is therefor not a difficulty mod.
+Known bugs: Upon going below 0.8, instead of going to 0.7, it goes to 0.699999, upon another use 0.599999, and so on.
+Coincidently, this bug is why there is no message as to what multiplier you are currently at.
+Notes: The tools to use this mod can be crafted anywhere for free.
+The multipliers reset after you save and exit, make sure to reenable them if you want to keep the current difficulty.
+This was made in a very short period of time and was not extensivly tested, if you find more bugs message me on discord at Peppafan666#2429.
