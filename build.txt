@@ -1,3 +1,4 @@
 displayName = Boss Health Scaling
 author = PigGod
-version = 0.1
+version = 1.0
+homepage = https://forms.gle/8W6HWqMChUCz9WC87
