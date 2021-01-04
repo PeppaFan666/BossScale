@@ -15,10 +15,17 @@ namespace BossScale
         {
             item.useStyle = ItemUseStyleID.SwingThrow;
         }
+        public override void UpdateInventory(Player player)
+        {
+            if (bossmult.bossmults < 0.1f)
+            {
+                bossmult.bossmults = 0.1f;
+            }
+        }
         public override bool UseItem(Player player)
         {
+            bossmult.bossmults -= 0.1f;
             Main.NewText(bossmult.bossmults + " times");
-            bossmult.bossmults -= 1;
             return true;
 
         }

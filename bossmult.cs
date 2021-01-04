@@ -10,12 +10,16 @@ namespace BossScale
 {
      public class bossmult: GlobalNPC
     {
-        public static int bossmults = 1;
+       
+        public static float bossmults = 1f;
         public override void SetDefaults(NPC npc)
         {
+            float max = (float)npc.lifeMax;
+   
             if (npc.boss == true)
             {
-                npc.lifeMax *= bossmults;
+                max *= bossmults;
+                npc.lifeMax = (int)max;
             }
         }
 
