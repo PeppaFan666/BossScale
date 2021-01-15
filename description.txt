@@ -1,12 +1,17 @@
-Boss Health Scaling is a mod that allows you to change boss health by any multiple of 0.1, it does not add AI or damage, and just makes bosses tankier.
+Boss Health Scaling is a mod that allows you to change boss health, from a small amount to drastically.
 Notes:
 1. The tools to use this mod can be crafted anywhere for free.
 2. This has been tested with calamity and vanilla but should be compatible with every mod.
 3. The multipliers stack upon current base health, if you are in expert mode it will use the expert mod health to multiply, if you enable another difficulty it will multiply the health of bosses in that difficulty automatically.
 4. Stacks last upon any other health mods, if one multiplies the health by 2, it will then multiply the multiplied health.
-5. You can not multiply by less than 0.1.
-6. The multipliers do not reset even if you reload mods, however, they will go away if you disable this mod.
-7. The multipliers carry between worlds and characters but are reset upon closing Terraria.
-8. This mod has not been extensively tested in multiplayer.
+5. You cannot multiply by less than 0.1.
+6. The multipliers carry between worlds and characters but are reset upon closing Terraria, or reloading mods.
+7. This mod has not been extensively tested in multiplayer.
 If you find bugs submit through the google form listed under mod homepage.
+Changelog:
+Version 2:
+- Overhauled system used to control multiplier, now can be controlled the through buttons, or by scrolling with a mouse wheel.
+- Added UI for better and more streamlined use.
+- Removed items used to scale, as I found them clunky and slow to use.
+- Open and close the UI with the scale button, located at the bottom left corner.
 Thank you, Have Fun.
