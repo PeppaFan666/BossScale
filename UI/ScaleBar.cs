@@ -102,7 +102,7 @@ namespace BossScale.UI
         {
             base.DrawSelf(spriteBatch);
 
-            float quotient = ((float)((float)bossmult.bossmults / bossmult.max));
+            double quotient = bossmult.bossmults / bossmult.max;
             quotient = Utils.Clamp(quotient, 0f, 1f);
             Rectangle hitbox = ScaleFrame.GetInnerDimensions().ToRectangle();
             hitbox.X += 12;

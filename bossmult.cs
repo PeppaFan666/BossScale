@@ -22,7 +22,6 @@ namespace BossScale
             {
                 max *= bossmults;
                 npc.lifeMax = (int)max;
-                npc.life = npc.lifeMax;
             }
         }
 
